@@ -3,11 +3,8 @@ import IntroLayout from "./Layout/IntroLayout";
 function App() {
   return (
     <main>
-      <section>
+      <section className="introLayout">
         <IntroLayout />
-      </section>
-      <section>
-        Memories
       </section>
     </main>
   );
