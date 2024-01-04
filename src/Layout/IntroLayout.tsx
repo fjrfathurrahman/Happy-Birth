@@ -1,7 +1,6 @@
 import { headline, pp, subHeadline } from "../data/Data";
 import { ButtonCom } from "../components/button/ButtonCom";
-import { Button, Modal, ModalBody, ModalContent, ModalFooter, ModalHeader, useDisclosure } from "@nextui-org/react";
-import React from "react";
+import { Modal, ModalBody, ModalContent, ModalHeader, useDisclosure } from "@nextui-org/react";
 export default function IntroLayout() {
   const {isOpen, onOpen, onOpenChange} = useDisclosure();
 
@@ -26,26 +25,34 @@ export default function IntroLayout() {
       <div>
         <img src={pp} className="rounded-full w-52 h-52 mx-auto" />
       </div>
+      <ModalCom isOpen={isOpen} onOpenChange={onOpenChange}/>
+    </main>
+  );
+}
+
+const ModalCom = (props : any) => {
+  return (
+    <>
+    <div>
       <Modal 
-        isOpen={isOpen} 
+        isOpen={props.isOpen}
         placement={"top-center"}
-        onOpenChange={onOpenChange} 
+        onOpenChange={props.onOpenChange}
       >
         <ModalContent className="bg-[#16161a]">
           {() => (
             <>
-              <ModalHeader className="flex flex-col gap-1">Modal Title</ModalHeader>
+              <ModalHeader className="flex flex-col gap-1">Happy Birthday my love</ModalHeader>
               <ModalBody>
                 <p> 
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Nullam pulvinar risus non risus hendrerit venenatis.
-                  Pellentesque sit amet hendrerit risus, sed porttitor quam.
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque similique natus soluta, iste nulla tenetur vitae laboriosam nihil maxime ullam ad, voluptate expedita dolores tempore aliquam. Corrupti distinctio quas consectetur quam sapiente, veniam consequuntur nisi? Nulla ducimus modi quibusdam illo?
                 </p>
               </ModalBody>
             </>
           )}
         </ModalContent>
       </Modal>
-    </main>
-  );
+      </div>
+    </>
+  )
 }
