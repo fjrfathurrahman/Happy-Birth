@@ -1,6 +1,6 @@
 import  pp  from "../assets/pp.jpg";
 const headline = (
-  <h1 className="text-5xl font-bold leading-[62px]">
+  <h1 className="text-4xl font-bold leading-[52px] cursor-pointer">
     Who's{" "}
     <span className="text-primary">
       Happy <br /> Birthday
