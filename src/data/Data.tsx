@@ -1,7 +1,7 @@
 import pp from "../assets/pp.jpg";
 
 const headline = (
-  <h1 className="text-[56px] font-bold leading-[62px] cursor-pointer">
+  <h1 className="text-[48px] font-bold leading-[62px] cursor-pointer">
     Who's{" "}
     <span className="text-primary">
       Happy <br /> Birthday
@@ -11,7 +11,7 @@ const headline = (
 );
 const subHeadline = (
   <p>
-    ARGHHHHHH my love, my darling, my happiness, <br /> my spirit, my life
+    ARGHHHHHH my love, my darling, <br /> my happiness, my spirit, my life
     companion,
   </p>
 );
