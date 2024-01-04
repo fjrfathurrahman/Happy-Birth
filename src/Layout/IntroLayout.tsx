@@ -9,7 +9,7 @@ export default function IntroLayout() {
   }
 
   return (
-    <main className="container py-24 flex flex-col gap-9">
+    <main className="py-24 flex flex-col gap-9">
       <div className="text-center flex flex-col ">
         {headline}
         {subHeadline}
