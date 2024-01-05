@@ -1,7 +1,6 @@
 import { headline, pp, subHeadline } from "../data/Data";
 import { ButtonCom } from "../components/button/ButtonCom";
-import { useDisclosure } from "@nextui-org/react";
-import { ModalCom } from "../components/modal/ModalCom";
+import { useDisclosure, Modal, ModalBody, ModalContent, ModalHeader } from "@nextui-org/react";
 
 export default function IntroLayout() {
   const {isOpen, onOpen, onOpenChange} = useDisclosure();
@@ -31,3 +30,35 @@ export default function IntroLayout() {
     </main>
   );
 }
+
+const ModalCom = (props: any) => {
+  return (
+    <>
+      <Modal
+        isOpen={props.isOpen}
+        placement={"center"}
+        onOpenChange={props.onOpenChange}
+      >
+        <ModalContent className="bg-[#fffffe]">
+          {() => (
+            <>
+              <ModalHeader className="flex flex-col gap-1">
+                <h1 className="font-bold">Happy Birthday my love</h1>
+              </ModalHeader>
+              <ModalBody>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Cumque similique natus soluta, iste nulla tenetur vitae
+                  laboriosam nihil maxime ullam ad, voluptate expedita dolores
+                  tempore aliquam. Corrupti distinctio quas consectetur quam
+                  sapiente, veniam consequuntur nisi? Nulla ducimus modi
+                  quibusdam illo?
+                </p>
+              </ModalBody>
+            </>
+          )}
+        </ModalContent>
+      </Modal>
+    </>
+  );
+};
