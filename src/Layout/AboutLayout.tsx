@@ -5,7 +5,7 @@ export const AboutLayout = () => {
     <main className="py-10 flex flex-col gap-5 border-t">
       <GridImages />
       <div className="end flex flex-col gap-3">
-        <h1 className="font-bold text-xl">It's about you</h1>
+        <h1 className="font-bold text-2xl">It's about you</h1>
         <p className="text-justify">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit illum
           maiores possimus corporis corrupti quae natus laudantium, ea
