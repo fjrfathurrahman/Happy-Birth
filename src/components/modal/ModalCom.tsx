@@ -13,7 +13,7 @@ export const ModalCom = (props : any) => {
             {() => (
               <>
                 <ModalHeader className="flex flex-col gap-1">
-                  <h1 className="font-bold text-xl">Happy Birthday my love</h1>
+                  <h1 className="font-bold">Happy Birthday my love</h1>
                 </ModalHeader>
                 <ModalBody>
                   <p>
