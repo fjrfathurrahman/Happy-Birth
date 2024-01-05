@@ -17,7 +17,7 @@ export default function IntroLayout() {
 
   return (
     <>
-      <main className="py-12">
+      <main className="">
         <div className="text-center flex flex-col mb-10">
           {headline}
           {subHeadline}
