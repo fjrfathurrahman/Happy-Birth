@@ -10,8 +10,8 @@ export default function IntroLayout() {
   }
 
   return (
-    <main className="py-24 flex flex-col gap-9">
-      <div className="text-center flex flex-col ">
+    <main className="py-12">
+      <div className="text-center flex flex-col mb-10">
         {headline}
         {subHeadline}
         <ButtonCom
