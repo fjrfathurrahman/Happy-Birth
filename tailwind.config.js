@@ -9,7 +9,7 @@ export default {
   theme: {
     extend: {
       colors : {
-        primary: "#fb4b96"
+        primary: "#3da9fc"
       },
       container: {
         center: true,

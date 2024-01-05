@@ -1,17 +1,15 @@
 import IntroLayout from "./Layout/IntroLayout";
-import { MemoriesLayout } from "./Layout/MemoriesLayout";
+import { AboutLayout } from "./Layout/AboutLayout";
 
 function App() {
   return (
     <main>
-      <section className="introLayout">
-        <div className="container">
-          <IntroLayout />
-        </div>
-      </section>
       <div className="container">
         <section>
-          <MemoriesLayout />
+          <IntroLayout />
+        </section>
+        <section className="">
+          <AboutLayout />
         </section>
       </div>
     </main>

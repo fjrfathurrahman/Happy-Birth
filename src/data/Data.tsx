@@ -1,4 +1,6 @@
-import pp from "../assets/pp.jpg";
+import pp from "../assets/photo.jpg";
+import photo1 from "../assets/Image grid/photo1.jpg";
+import photo2 from "../assets/Image grid/photo2.jpg";
 
 const headline = (
   <h1 className="text-[46px] font-bold leading-[62px] cursor-pointer">
@@ -16,4 +18,4 @@ const subHeadline = (
   </p>
 );
 
-export { headline, subHeadline, pp };
+export { headline, subHeadline, pp, photo1, photo2 };
