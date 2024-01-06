@@ -41,10 +41,23 @@ const dataMemoPhotos = [
   },
 ]
 
+const name = <span className="font-bold text-primary">Fani Febriani</span>
+const sayangggnya = <span className="font-bold text-indigo-500">sayangggnya</span>
+const sayanggg = <span className="font-bold text-indigo-500">sayanggg</span>
+const myLuvvv = <span className="font-bold text-pink-400">myLuvvv</span>
+
 const dataTextModal =[
   {
     id:1,
-    text: 'Yesss sayangggnya Aku, Fani Febriani anak ke 4, si bungsuuu. Selamat Ulang Tahun yaaa myLuvvv. Aku harap diumur kamu 17 Tahun ini, kamu punya pemikiran yang lebih dewasa dan menjadi kepribadian yang lebih baik lagi dari sebelum-sebelumnya, Okeyyy ??. Kurang-kurangin sikap children karna kamu bukan lagi anak-anak, nanti kamu punya SIM yeayyy, nanti juga kamu bakal banyak pikiran tapi kamu jangan takut, kamu kan kuattt. kalo kamu lagi sedih inget ada aku yang ada dibelakang kamuuu, ceritain aja semua keluh kesah kamu, aku mau ko dengerin semuanya malahan pengen banget. dan apapun keinginan kamu semoga tahun ini bisa terwujud, Aamiin.' 
+    textModal: <p>Yesss {sayangggnya} Aku {name} anak ke 4, si bungsuuu. Selamat Ulang Tahun yaaa {myLuvvv}. Aku harap diumur kamu 17 Tahun ini, kamu punya pemikiran yang lebih dewasa dan menjadi kepribadian yang lebih baik lagi dari sebelum-sebelumnya, Okeyyy ??. Kurang-kurangin sikap children karna kamu bukan lagi anak-anak, nanti kamu punya SIM yeayyy, nanti juga kamu bakal banyak pikiran tapi kamu jangan takut, kamu kan kuattt. kalo kamu lagi sedih inget ada aku yang ada dibelakang kamuuu, ceritain aja semua keluh kesah kamu, aku mau ko dengerin semuanya malahan pengen banget. apapun keinginan kamu semoga tahun ini bisa terwujud, dan semoga bisa glory AWKWKW Aamiin.</p>,
+  },
+  {
+    id:2,
+    textModal: <p>Semoga kamu diberi kesehatan, diberi umur yang panjang agar kita bisa menua bersama heehe. sehat selalu yahhh, HARUSSS. Jangan nunda-nunda makan dan minum aplagi kewajiban {sayanggg}, nanti kalo masi nunda-nunda aku tonjokkk 😤. Jangan males-malesan, sekolah yang rajin kayak aku tu rajin banget gilakkk. Jangan ngeluh-ngeluh, Semangat Terus Yaaa {myLuvvv}</p>,
+  },
+  {
+    id: 3,
+    textModal: <p>I love you now, tomorrow, every day and forever. And my love for you will never diminish. I love you so much, I hope we can continue to be together, Sekali lagi happy birthday dear, may this year be the best year ever, Maaf engga bisa ngasih apa-apaaa, cuman bisa ngasih ucapan yang engga seberapa. I always love you. ilysm</p>
   }
 ]
 
