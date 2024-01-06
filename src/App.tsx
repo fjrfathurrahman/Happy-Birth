@@ -2,8 +2,11 @@ import IntroLayout from "./Layout/IntroLayout";
 import { AboutLayout } from "./Layout/AboutLayout";
 import { useEffect, useState } from "react";
 import MemoriesLayout from "./Layout/MemoriesLayout";
+import { ModalCom } from "./components/modal/ModalCom";
+import { useDisclosure } from "@nextui-org/react";
 
 function App() {
+  const { isOpen, onOpen, onOpenChange } = useDisclosure();
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
@@ -17,17 +20,20 @@ function App() {
       {loading ? (
         <h1>Loading...</h1>
       ) : (
-        <div className="container">
-          <section>
-            <IntroLayout />
-          </section>
-          <section>
-            <AboutLayout />
-          </section>
-          <section>
-            <MemoriesLayout/>
-          </section>
-        </div>
+        <>
+          <ModalCom isOpen={isOpen} onOpenChange={onOpenChange} />
+          <div className="container">
+            <section>
+              <IntroLayout onPress={onOpen} />
+            </section>
+            <section>
+              <AboutLayout />
+            </section>
+            <section>
+              <MemoriesLayout />
+            </section>
+          </div>
+        </>
       )}
     </main>
   );
