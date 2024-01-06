@@ -1,4 +1,4 @@
-import { Button, Modal, ModalBody, ModalContent, ModalFooter, ModalHeader} from "@nextui-org/react";
+import { Modal, ModalBody, ModalContent, ModalFooter, ModalHeader} from "@nextui-org/react";
 import { dataTextModal } from "../../data/Data";
 
 export const ModalCom = (props : any) => {
