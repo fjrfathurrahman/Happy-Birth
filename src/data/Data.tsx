@@ -3,8 +3,6 @@ import photo1 from "../assets/Image grid/photo1.jpg";
 import photo2 from "../assets/Image grid/photo2.jpg";
 import Memo1  from "../assets/Image memories/memo1.jpg";
 import Memo2  from "../assets/Image memories/memo2.jpg";
-import Memo3  from "../assets/Image memories/memo3.jpg";
-import Memo4  from "../assets/Image memories/memo6.jpg";
 
 const headline = (
   <h1 className="text-[46px] font-bold leading-[62px] cursor-pointer">
@@ -31,14 +29,6 @@ const dataMemoPhotos = [
     id:2,
     image: Memo2
   },
-  {
-    id:2,
-    image: Memo3
-  },
-  {
-    id:2,
-    image: Memo4
-  },
 ]
 
 const name = <span className="font-bold text-primary">Fani Febriani</span>
@@ -61,4 +51,19 @@ const dataTextModal =[
   }
 ]
 
-export { headline, subHeadline, pp, photo1, photo2, dataMemoPhotos, dataTextModal };
+const dataTextAbout = [
+  {
+    id: 1,
+    text: <p>Helooo, ini {name} anak ke 4 dari 4 bersaudara, si bungsuuu. Lahir di Bandung pada tanggal 31 januari 2007, huuhu masi adek kecil. She's very beautiful udah kayak Jisoo and funny. Dia juga has very beautiful dan bibir yang sangat ARGHHHH, That's why I like it so much. Dia baik banget tapi jangan macem-macem dia itu psikopat, cerewet but I like it. Suka ngeGhosting orang-orang random anjenggg apalagi sama orang yang dia ga suka, omonganya dijaga yaahhh {sayanggg}, jangan sampe nyakitiin hati orang. Okeyyy ??</p>
+  },
+  {
+    id:2,
+    text : <p>Dia juga suka tantrum / ngereog gitu gara-gara salting, saltingnya lucu tapi sekarang uda biasa aja kayaknya, suka lupa udah kek nenek tapi kayaknya banyak pikiran, jangan mikirin yang engga penting yaaa {sayanggg}.dan dia juga punya gengsi yang tinggi apalagi egonya AWKWKWK, sama heehe.</p>
+  },
+  {
+    id:3,
+    text : <p>ANDDD dia sangat suka kucing kecuali kucing yang jelek, suka keju, suka cilung, suka risol, apalagi yaahhh. Jago maen emel gelooo tapi belom pernah ke glory WKWKW. She was my encouragement to go to school dan membuat masa-masa sekolah aku menjadi meyenangkan. I always love youuu.</p>
+  },
+]
+
+export { headline, subHeadline, pp, photo1, photo2, dataMemoPhotos, dataTextModal, dataTextAbout };
