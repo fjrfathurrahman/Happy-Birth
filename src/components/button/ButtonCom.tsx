@@ -1,7 +1,16 @@
-import { Button } from "@nextui-org/react"
+import { Button } from "@nextui-org/react";
 
-export const ButtonCom = (props : any) => {
+export const ButtonCom = (props: any) => {
   return (
-    <Button color={props.color} variant={props.variant} size={props.sizze} onPress={props.onPress} className={props.ClassName}>{props.text}</Button>
-  )
-}
+    <Button
+      color={props.color}
+      variant={props.variant}
+      size={props.sizze}
+      onPress={props.onPress}
+      className={props.ClassName}
+    >
+      {props.text}
+      {props.iconEnd}
+    </Button>
+  );
+};

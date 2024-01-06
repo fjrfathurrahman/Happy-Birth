@@ -3,6 +3,18 @@ import photo1 from "../assets/Image grid/photo1.jpg";
 import photo2 from "../assets/Image grid/photo2.jpg";
 import Memo1  from "../assets/Image memories/memo1.jpg";
 import Memo2  from "../assets/Image memories/memo2.jpg";
+import Memo3  from "../assets/Image memories/memo3.jpg";
+import Memo4  from "../assets/Image memories/memo4.jpg";
+import Memo5  from "../assets/Image memories/memo5.jpg";
+import Memo6  from "../assets/Image memories/memo6.jpg";
+import Memo7  from "../assets/Image memories/memo7.jpg";
+import Memo8  from "../assets/Image memories/memo8.jpg";
+import Memo9  from "../assets/Image memories/memo9.jpg";
+import Memo10  from "../assets/Image memories/memo10.jpg";
+import Memo11  from "../assets/Image memories/memo11.jpg";
+import Memo12  from "../assets/Image memories/memo12.jpg";
+import Memo13  from "../assets/Image memories/memo100.jpg";
+import Memo14  from "../assets/Image memories/Memo101.png";
 
 const headline = (
   <h1 className="text-[46px] font-bold leading-[62px] cursor-pointer">
@@ -28,6 +40,54 @@ const dataMemoPhotos = [
   {
     id:2,
     image: Memo2
+  },
+  {
+    id:3,
+    image: Memo3
+  },
+  {
+    id:4,
+    image: Memo4
+  },
+  {
+    id:5,
+    image: Memo5
+  },
+  {
+    id:6,
+    image: Memo6
+  },
+  {
+    id:7,
+    image: Memo7
+  },
+  {
+    id:8,
+    image: Memo8
+  },
+  {
+    id:9,
+    image: Memo9
+  },
+  {
+    id:10,
+    image: Memo10
+  },
+  {
+    id:11,
+    image: Memo11
+  },
+  {
+    id:12,
+    image: Memo12
+  },
+  {
+    id:13,
+    image: Memo13
+  },
+  {
+    id:14,
+    image: Memo14
   },
 ]
 
