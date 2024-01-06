@@ -41,4 +41,11 @@ const dataMemoPhotos = [
   },
 ]
 
-export { headline, subHeadline, pp, photo1, photo2, dataMemoPhotos };
+const dataTextModal =[
+  {
+    id:1,
+    text: 'Yesss sayangggnya Aku, Fani Febriani anak ke 4, si bungsuuu. Selamat Ulang Tahun yaaa myLuvvv. Aku harap diumur kamu 17 Tahun ini, kamu punya pemikiran yang lebih dewasa dan menjadi kepribadian yang lebih baik lagi dari sebelum-sebelumnya, Okeyyy ??. Kurang-kurangin sikap children karna kamu bukan lagi anak-anak, nanti kamu punya SIM yeayyy, nanti juga kamu bakal banyak pikiran tapi kamu jangan takut, kamu kan kuattt. kalo kamu lagi sedih inget ada aku yang ada dibelakang kamuuu, ceritain aja semua keluh kesah kamu, aku mau ko dengerin semuanya malahan pengen banget. dan apapun keinginan kamu semoga tahun ini bisa terwujud, Aamiin.' 
+  }
+]
+
+export { headline, subHeadline, pp, photo1, photo2, dataMemoPhotos, dataTextModal };
