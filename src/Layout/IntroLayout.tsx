@@ -1,23 +1,12 @@
 import { headline, pp, subHeadline } from "../data/Data";
 import { ButtonCom } from "../components/button/ButtonCom";
-import {
-  useDisclosure,
-  Modal,
-  ModalBody,
-  ModalContent,
-  ModalHeader,
-} from "@nextui-org/react";
+import { Button, Modal, ModalBody, ModalContent, ModalFooter, ModalHeader, useDisclosure } from "@nextui-org/react";
 
 export default function IntroLayout() {
-  const { isOpen, onOpen, onOpenChange } = useDisclosure();
-
-  const handleOpen = () => {
-    onOpen();
-  };
-
+  const {isOpen, onOpen, onOpenChange} = useDisclosure();
   return (
     <>
-      <main className="">
+      <main className="py-24">
         <div className="text-center flex flex-col mb-10">
           {headline}
           {subHeadline}
@@ -27,7 +16,7 @@ export default function IntroLayout() {
             size="md"
             ClassName="font-semibold text-md mt-5"
             text="For Youuu"
-            onPress={handleOpen}
+            onPress={onOpen}
           />
         </div>
         <div>
@@ -42,32 +31,46 @@ export default function IntroLayout() {
   );
 }
 
-const ModalCom = (props: any) => {
+const ModalCom = (props : any) => {
   return (
-    <Modal
-      isOpen={props.isOpen}
-      placement={"center"}
-      onOpenChange={props.onOpenChange}
-      className="h-20"
-    >
-      <ModalContent className="bg-[#fffffe]">
-        {() => (
-          <>
-            <ModalHeader className="flex flex-col gap-1">
-              Happy Birthday my love
-            </ModalHeader>
-            <ModalBody>
-              <p className="text-justify">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque
-                similique natus soluta, iste nulla tenetur vitae laboriosam
-                nihil maxime ullam ad, voluptate expedita dolores tempore
-                aliquam. Corrupti distinctio quas consectetur quam sapiente,
-                veniam consequuntur nisi? Nulla ducimus modi quibusdam illo?
-              </p>
-            </ModalBody>
-          </>
-        )}
-      </ModalContent>
-    </Modal>
+
+    <>
+      <Modal isOpen={props.isOpen} onOpenChange={props.onOpenChange}>
+        <ModalContent>
+          {(onClose) => (
+            <>
+              <ModalHeader className="flex flex-col gap-1">
+                <h1 className="text-xl font-semibold">Happy Birthday</h1>
+              </ModalHeader>
+              <ModalBody>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nullam pulvinar risus non risus hendrerit venenatis.
+                  Pellentesque sit amet hendrerit risus, sed porttitor quam.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nullam pulvinar risus non risus hendrerit venenatis.
+                  Pellentesque sit amet hendrerit risus, sed porttitor quam.
+                </p>
+                <p>
+                  Magna exercitation reprehenderit magna aute tempor cupidatat
+                  consequat elit dolor adipisicing. Mollit dolor eiusmod sunt ex
+                  incididunt cillum quis. Velit duis sit officia eiusmod Lorem
+                  aliqua enim laboris do dolor eiusmod. Et mollit incididunt
+                  nisi consectetur esse laborum eiusmod pariatur proident Lorem
+                  eiusmod et. Culpa deserunt nostrud ad veniam.
+                </p>
+              </ModalBody>
+              <ModalFooter>
+                <Button color="primary" onPress={onClose}>
+                  Action
+                </Button>
+              </ModalFooter>
+            </>
+          )}
+        </ModalContent>
+      </Modal>
+    </>
   );
 };

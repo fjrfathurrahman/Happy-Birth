@@ -21,7 +21,7 @@ function App() {
           <section>
             <IntroLayout />
           </section>
-          <section className="">
+          <section>
             <AboutLayout />
           </section>
           <section>
