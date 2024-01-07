@@ -4,21 +4,22 @@ import { useEffect, useState } from "react";
 import MemoriesLayout from "./Layout/MemoriesLayout";
 import { ModalCom } from "./components/modal/ModalCom";
 import { useDisclosure } from "@nextui-org/react";
+import LoadingLayout from "./Layout/LoadingLayout";
 
 function App() {
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 5000);
+    }, 7000);
   }, []);
 
   return (
     <main>
       {loading ? (
-        <h1>Loading...</h1>
+        <section><LoadingLayout/></section>
       ) : (
         <>
           <ModalCom isOpen={isOpen} onOpenChange={onOpenChange} />
