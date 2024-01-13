@@ -10,7 +10,7 @@ export default function MemoriesLayout() {
     <main className="py-10 flex flex-col gap-5 border-t">
       <div className="start">
         <h1 className="font-extrabold text-3xl mb-2">Very <span className="text-pink-500">precious</span> <br /> <span className="text-primary">memories</span> with you</h1>
-        <p>Doing little things together with you is so much fun, yesss for real !!</p>
+        <p>I love quality time with you, I honestly dontt care what we so, i just wanna spend time with you ! </p>
       </div>
       <motion.div className="center pt-5 border-t grid grid-cols-2 gap-2" ref={reff} initial="hidden" animate={isInView ? "visible" : "hidden"} transition={{staggerChildren: 0.6}}>
         {dataMemoPhotos.map((item) => (
@@ -19,6 +19,7 @@ export default function MemoriesLayout() {
           </motion.div>
         ))}
       </motion.div>
+      <h1 className="text-center">And more.</h1>
     </main>
   )
 }

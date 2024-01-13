@@ -92,37 +92,35 @@ const dataMemoPhotos = [
 ]
 
 const name = <span className="font-bold text-primary">Fani Febriani</span>
-const sayangggnya = <span className="font-bold text-indigo-500">sayangggnya</span>
 const sayanggg = <span className="font-bold text-indigo-500">sayanggg</span>
-const myLuvvv = <span className="font-bold text-pink-400">myLuvvv</span>
 
 const dataTextModal =[
   {
     id:1,
-    textModal: <p>Yesss {sayangggnya} Aku {name} anak ke 4, si bungsuuu. Selamat Ulang Tahun yaaa {myLuvvv}. Aku harap diumur kamu 17 Tahun ini, kamu punya pemikiran yang lebih dewasa dan menjadi kepribadian yang lebih baik lagi dari sebelum-sebelumnya, Okeyyy ??. Kurang-kurangin sikap children karna kamu bukan lagi anak-anak, nanti kamu punya SIM yeayyy, nanti juga kamu bakal banyak pikiran tapi kamu jangan takut, kamu kan kuattt. kalo kamu lagi sedih inget ada aku yang ada dibelakang kamuuu, ceritain aja semua keluh kesah kamu, aku mau ko dengerin semuanya malahan pengen banget. apapun keinginan kamu semoga tahun ini bisa terwujud, dan semoga bisa glory AWKWKW Aamiin.</p>,
+    textModal: <p>Happiest birthday, darling ! the most gorgeous person, the person who hight cuteness, my lover, my soul, {name}. </p>
   },
   {
     id:2,
-    textModal: <p>Semoga kamu diberi kesehatan, diberi umur yang panjang agar kita bisa menua bersama heehe. sehat selalu yahhh, HARUSSS. Jangan nunda-nunda makan dan minum aplagi kewajiban {sayanggg}, nanti kalo masi nunda-nunda aku tonjokkk 😤. Jangan males-malesan, sekolah yang rajin kayak aku tu rajin banget gilakkk. Jangan ngeluh-ngeluh, Semangat Terus Yaaa {myLuvvv}</p>,
+    textModal: <p>Aku harap di ulang tahun kamu kali ini diberi bisa jadi orang yang lebih baik lagi, lebih bijak dalam segala hal, lebih hati-hati dengan apapun. lebih bisa mengerti dengan keadaan diri kamu sendiri, lebih terbuka dengan diri kamu, lebih jujur dalam perasaan yang kamu rasain, lebih bertanggung jawab, tidak nunda-nunda kegiatan apapun, lebih rajin lagi, tidak males makan dan minum and bisa ngerasain glory WKWKWK. Happy always, for now, tomorrow, the next year and the years after that. Best wishes for you. Kadang mikir keajaiban dunia tu kayak gimana. But I knew that you existed and lived, there I realized that the magic of the world really does exist. So, thank you for existing ! life would be boring without you.</p>,
   },
   {
     id: 3,
-    textModal: <p>I love you now, tomorrow, every day and forever. And my love for you will never diminish. I love you so much, I hope we can continue to be together, Sekali lagi happy birthday dear, may this year be the best year ever, Maaf engga bisa ngasih apa-apaaa, cuman bisa ngasih ucapan yang engga seberapa. I always love you. ilysm</p>
+    textModal: <p>I love you for now, tomorrow, every day and forever. And my love for you will never diminish. I love you so much, I hope we can continue to be together, Once again happy birthday dear, may this year be the best year ever. I always love you. ilysm !</p>
   }
 ]
 
 const dataTextAbout = [
   {
     id: 1,
-    text: <p>Helooo, ini {name} anak ke 4 dari 4 bersaudara, si bungsuuu. Lahir di Bandung pada tanggal 31 januari 2007, huuhu masi adek kecil. She's very beautiful udah kayak Jisoo and funny. Dia juga has very beautiful dan bibir yang sangat ARGHHHH, That's why I like it so much. Dia baik banget tapi jangan macem-macem dia itu psikopat, cerewet but I like it. Suka ngeGhosting orang-orang random anjenggg apalagi sama orang yang dia ga suka, omonganya dijaga yaahhh {sayanggg}, jangan sampe nyakitiin hati orang. Okeyyy ??</p>
+    text: <p>Helooo, ini {name} anak ke 4 dari 4 bersaudara, Lahir di Bandung, 31 januari 2007, huuhu masi adek kecil. She's very beautiful udah kayak Jisoo. She has beautiful eyes dan bibir yang sangat ARGHHHH, That's why I like it so much. Dia baik banget tapi jangan macem-macem dia itu psikopat, cerewet but I like it. Suka ngeGhosting orang-orang random anjenggg apalagi sama orang yang dia ga suka, omonganya dijaga yaaa {sayanggg}, jangan sampe nyakitiin hati orang. Okeyyy ??</p>
   },
   {
     id:2,
-    text : <p>Dia juga suka tantrum / ngereog gitu gara-gara salting, saltingnya lucu tapi sekarang uda biasa aja kayaknya, suka lupa udah kek nenek tapi kayaknya banyak pikiran, jangan mikirin yang engga penting yaaa {sayanggg}.dan dia juga punya gengsi yang tinggi apalagi egonya AWKWKWK, sama heehe.</p>
+    text : <p>Dia juga suka tantrum atau ngereog gitu gara-gara salting, saltingnya lucu tapi sekarang uda biasa aja kayaknya, suka lupa udah kek nenek tapi kayaknya banyak pikiran, jangan mikirin yang engga penting yaaa {sayanggg}.dan dia juga punya gengsi yang tinggi apalagi egonya AWKWKWK, sama heehe.</p>
   },
   {
     id:3,
-    text : <p>ANDDD dia sangat suka kucing kecuali kucing yang jelek, suka keju, suka cilung, suka risol, apalagi yaahhh. Jago maen emel gelooo tapi belom pernah ke glory WKWKW. She was my encouragement to go to school dan membuat masa-masa sekolah aku menjadi meyenangkan. I always love youuu.</p>
+    text : <p>ANDDD dia sangat amat suka kucing kecuali kucing yang jelek, suka keju, suka cilung, suka risol, apalagi yaahhh. Jago maen emel gelooo tapi belom pernah ke glory WKWKW. She was my encouragement to go to school dan membuat masa-masa sekolah aku menjadi meyenangkan. I always love youuu.</p>
   },
 ]
 
